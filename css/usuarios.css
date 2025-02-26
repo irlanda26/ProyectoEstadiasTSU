@@ -1,0 +1,181 @@
+body {
+    background-color: #DBC6EB;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#contenedor-p {
+    display: grid;
+    width: 100%;
+    background-color: #8539A2;
+}
+header {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+#cuerpo {
+    margin-top: 50px;
+    height: 100vh;
+}
+.tablota {
+    margin: auto;
+    background-color: #ffffffab;
+    border-collapse: collapse;
+    width: 80%;
+    height: 60%;
+    font-size: small;
+    box-shadow: #000 1px 2px 3px 0px;
+} 
+.tablota1 {
+    background-color: #ffffffab;
+    border-collapse: collapse;
+    width: 100%;
+    height: 60%;
+    font-size: small;
+    box-shadow: #000 1px 2px 3px 0px;
+}
+thead td:nth-child(1) {
+    width: 30%;
+    background-color: #8539A2;
+    color: #fff;
+}
+  thead td:nth-child(2) {
+      width: 30%;
+      background-color: #8539A2;
+      color: #fff;
+}
+thead td:nth-child(3) {
+    width: 13%;
+    background-color: #8539A2;
+    color: #fff;
+}
+thead td:nth-child(4) {
+    width: 13%;
+    height: 40px;
+    background-color: #8539A2;
+    color: #fff;
+  }
+thead td:nth-child(5) {
+    width: 13%;
+    justify-content: center;
+    background-color: #8539A2;
+    color: #fff;
+}
+.btn-t {
+    margin: auto;
+    display: flex;
+    width: 45px;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+#crear, .in, .ba {
+    margin: 0% 10%;
+    background-color: #8539A2;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 10px 0px;
+    box-shadow: #000 1px 2px 3px 0px;
+    cursor: pointer;
+}
+.in {
+    box-shadow: none;
+    border-radius: 10px 10px 0px 0px;
+    text-decoration: none;
+}
+.ba {
+    box-shadow: none;
+    border-radius: 0px 0px 10px 10px;
+    text-decoration: none;
+}
+.enviar, .ca {
+    width: 90%;
+    border-radius: 10px;
+    margin: 5px;
+    border: none;
+    background-color: #8539A2;
+    color: #fff;
+    cursor: pointer;
+}
+input {
+    width: 80%;
+    border: none;
+    background-color: transparent;
+}
+#contenedor-crear {
+    width: 80%;
+    display: none;
+    margin: auto;
+}
+#form-act {
+    display: none;
+}
+#con-cont {
+    margin-left: 5%;
+    width: 80%;
+}
+#contra {
+    margin: auto;
+    border: solid #8539A2;
+    border-radius: 20px;
+    height: 100px;
+    width: 50%;
+    background-color: #fff;
+    display: flex;
+}
+#contra input, #contenedor-actcon input {
+    margin: 10px;
+    border: solid 1px;
+    border-radius: 5px;
+    height: 20px;
+    width: 90%;
+}
+label {
+    font-size: small;
+    margin-left: 10px;
+}
+#inco {
+    margin: auto;
+    border-radius: 20px;
+    border: solid #8539A2;
+    background-color: #fff;
+    width: 50%;
+    height: 125px;
+    display: flex;
+}
+#contenedor-actcon {
+    margin: auto;
+    border-radius: 20px;
+    border: solid #8539A2;
+    background-color: #fff;
+    width: 50%;
+    height: 118px;
+    padding: 10px;
+    display: none;
+}
+.conx {
+    width: 20%;
+    display: flex;
+    justify-content: end;
+}
+.conxx {
+    width: 10%;
+    display: flex;
+}
+.x {
+    border: none;
+    background-color: #8539A2;
+    color: #fff;
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    margin: 5px;
+}

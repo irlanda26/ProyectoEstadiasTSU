@@ -1,0 +1,146 @@
+body {
+    background-color: #DBC6EB;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#contenedor-p {
+    display: grid;
+    width: 100%;
+    background-color: #8539A2;
+}
+header {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+#cuerpo {
+    height: 100%;
+}
+#cuerpo h2 {
+    margin-top: 10%;
+    text-align: center;
+    color: #8539A2;
+}
+#contenedor-form {
+    justify-content: center;
+    margin-top: 5%;
+}
+.contenedor-sec {
+    padding: 2%;
+    margin: 5%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 4px 4px 0px 4px #8539A2;
+}
+.contenedor-che {
+    display: flex;
+    width: 100%;
+}
+.linea {
+    display: flex;
+    width: 100%;
+}
+.in {
+    display: flex;
+    margin: 4px;
+    width: 100%;
+}
+.in input {
+    width: 100%;
+    align-self: self-start;
+    width: 100%;
+}
+.pip {
+    display: flex;
+}
+.pregunta {
+    width: 50%;
+    margin: 6px 0px;
+}
+.de {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+}
+.txt-in {
+    display: none;
+    width: 100%;
+    margin: 5px;
+}
+input {
+    border-radius: 7px;
+    border: none;
+    padding: 3px;
+    background-color: #DBC6EB;
+}
+#contenedor-canva {
+    position: relative;
+    width: 100%;
+    max-width: 835px;
+    margin: 0 auto;
+}
+#canva {
+    width: 100%;
+    height: 100%;
+    height: auto;
+    cursor: crosshair;
+}
+#btn {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 50px;
+}
+.btn-e {
+    height: 40px;
+    width: 80px;
+    margin-right: 10%;
+    background-color: #8539A2;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 10px 0px;
+    box-shadow: #000 1px 2px 3px 0px;
+    cursor: pointer;
+}
+p {
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 20px;
+  }  
+.date {
+    display: flex;
+    justify-content: end;
+    margin: 20px;
+}
+.firmass {
+    display: flex;
+}
+#canva-firma {
+    width: 100%;
+    height: 100%;
+    cursor: crosshair;
+    border: solid #8539A2;
+}
+#ccanva-firma {
+    width: 50%;
+    height: 80%;
+    margin-right: 20px;
+}
+#foto-firma {
+    width: 100%;
+}
+#cfoto-f {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+#cfoto-f h4{
+    margin-top: auto;
+}

@@ -1,0 +1,212 @@
+body {
+    margin: 0;
+    height: 100vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#contenedor-p {
+    display: grid;
+    width: 100%;
+    height: auto;
+    background-color: #ABBE89;
+}
+header {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+#cuerpo {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+#container-p-c {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+} 
+#container-t-c {
+    width: 90%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+}
+#tipo-dato {
+    width: 100%;
+    height: 40px;
+    display: flex;
+}
+#tipo-dato button:hover {
+    background-color: #D1EAA3;
+}
+.btn-datos {
+    height: 40px;
+    padding: 0px 10px;
+    cursor: pointer;
+    font-size: small;
+    font-weight: 800;
+    border: none;
+    border-radius: 15px 15px 0px 0px;
+    background-color: #ABBE89;
+    box-shadow: 4px 0px 4px 0px #000000;
+}
+button {
+    color: #000;
+}
+#info {
+    width: 100%;
+    height: 100%;
+    padding: 5%;
+    box-shadow: 4px 8px 4px 1px #000000;
+    border-radius: 0px 20px 20px 20px;
+    background-color: #D1EAA3;
+}
+.arriba {
+    display: flex;
+    justify-content: flex-end;
+}
+#fecha {
+    margin-left: 40%;
+}
+#datos {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 15px 0px;
+}
+.uno, .dos {
+    width: 50%;
+}
+.uno-2, .cuatro {
+    width: 100%;
+}
+.tres {
+    width: 65%;
+}
+#heredofa, #pato, #diag {
+    display: none;
+}
+#personal {
+    display: none;
+    min-height: 300px;
+}
+#notas {
+    display: none;
+    min-height: 300px;
+}
+.si {
+    display: flex;
+    flex-direction: column;
+}
+.n-text {
+    height: 90%;
+}
+#agregar {
+    height: 10%;
+}
+#crud {
+    display: flex;
+    justify-content: center;
+}
+.cru {
+    margin: 50px;
+    width: 100px;
+    height: 50px;
+    background-color: #ABBE89;
+    border: none;
+    border-radius: 10px 0px;
+    box-shadow: #000 1px 2px 3px 0px;
+    cursor: pointer;
+}
+.cru a {
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    font-size: small;
+}
+.a {
+    width: 100px;
+    height: 50px;
+    background-color: #ABBE89;
+    border: none;
+    border-radius: 10px 0px;
+    box-shadow: #000 1px 2px 3px 0px;
+    cursor: pointer;
+    padding-top: 15px;
+    justify-content: center;
+}
+.contenedor-diag {
+    display: grid;
+}
+#con-fnota {
+    background-color: #D1EAA3;
+    width: 470px;
+    height: 150px;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 15px;
+    display: flex;
+    display: none;
+}
+#x{
+    border-radius: 10px;
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: #ABBE89;
+    margin-left: 20px;
+}
+.quesillo {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.quesillo input {
+    width: 400px;
+    border-radius: 7px;
+    border: none;
+    padding: 5px;
+    background-color: #ABBE89;
+}
+.quesillo button {
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    margin-top: 15px;
+    border: none;
+    background-color: #ABBE89;
+}
+.cond {
+    display: flex;
+    justify-content: center;
+}
+.con {
+    background-color: #ABBE89;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #000;
+    margin-top: 12%;
+    margin-bottom: 12%;
+    box-shadow: #000 1px 2px 3px 0px;
+    height: 20px;
+}
+@media (max-width: 1024px) {
+    #container-p-c {
+        width: 80%;
+    }
+}

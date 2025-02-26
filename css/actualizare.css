@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    height: 100vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#contenedor-p {
+    display: grid;
+    width: 100%;
+    height: auto;
+    background-color: #ABBE89;
+}
+header {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+#cuerpo {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    margin: 5% 0%;
+}
+#contenedor-t {
+    width: 80%;
+}
+#contenedor-a {
+    width: 10%;
+}
+.tablota {
+    width: 100%;
+    margin: auto;
+    background-color: #ffffffab;
+    border-collapse: collapse;
+    font-size: small;
+    text-align: left;
+}
+.tablota th {
+    width: 30%;
+}
+.tablota input {
+    width: 95%;
+    border: none;
+}
+.titulo {
+    background-color: #ABBE89;
+}
+button {
+    margin-left: 20px;
+    width: 75px;
+    height: 50px;
+    background-color: #ABBE89;
+    border: none;
+    border-radius: 10px 0px;
+    box-shadow: #000 1px 2px 3px 0px;
+    cursor: pointer;
+}

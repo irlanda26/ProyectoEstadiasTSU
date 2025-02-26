@@ -1,0 +1,119 @@
+body {
+    background-color: #ABC2E8;
+    margin: 0;
+    height: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#contenedor-p {
+    display: grid;
+    width: 100%;
+    height: auto;
+    background-color: #7071E8;
+    position: absolute;
+    z-index: 10;
+}
+header {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+#cuerpo {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+#deco1 {
+    width: 15%;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+}
+.diente-i {
+    width: 100%;
+    height: 20%;
+    background-color: #fff;
+    clip-path: 	ellipse(70% 70% at 5% 50%);
+}
+#contenedor {
+    width: 70%;
+    margin: 10% 15%;
+}
+#contenedor-citas {
+    margin-top: 10%;
+    height: 17%;
+    background-color: #7071E8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px 0px;
+    box-shadow: #000 2px 4px 3px 0px;
+}
+#contenedor-citas button {
+    height: 50px;
+    background-color: #ABC2E8;
+    border: none;
+    cursor: pointer;
+    border-radius:10px;
+    box-shadow: #000 1px 2px 3px 0px;
+}
+#botones {
+    display: flex;
+    justify-content: center;
+    height: 15%;
+}
+#form-cita, #form-expediente {
+    color: #000;
+}
+#botones button {
+    width: 200px;
+    height: 50px;
+    background-color: #7071E8;
+    border: none;
+    margin: 5%;
+    cursor: pointer;
+    border-radius: 10px 0px;
+    box-shadow: #000 1px 1px 3px 0px;
+}
+#deco2 {
+    width: 15%;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    margin-left: 85%;
+}
+.diente-d {
+    width: 100%;
+    height: 20%;
+    background-color: #fff;
+    clip-path: 	ellipse(70% 70% at 95% 50%);
+    display: flex;
+    justify-content: center;
+}
+.diente-d img {
+    margin-top: 20px;
+    background-color: #fff;
+}
+#fecha {
+    width: 40%;
+}
+#nombres {
+    width: 30%;
+    margin-left: 10px;
+}
+.con-btn {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,167 @@
+body {
+    background-color: #EFEE9D;
+    margin: 0;
+    height: 90vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#contenedor-p {
+    display: grid;
+    width: 100%;
+    height: auto;
+    background-color: #E5E34C;
+}
+header {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+#cuerpo {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+#deco1 {
+    width: 20%;
+}
+#deco1 img {
+    width: 100%;
+}
+#contenedor {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 90vh;
+}
+#contenedor-form {
+    height: 80%;
+    width: 90%;
+    padding-left: 30px;
+    background-color: #fff;
+    border-radius: 20px 20px 0px 0px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.button {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5%;
+}
+button {
+    width: 100px;
+    margin-top: 5%;
+    background-color: #E5E34C;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    font-size: large;
+    border-radius: 10px 0px;
+    box-shadow: #000 1px 2px 3px 0px;
+}
+#btn-b {
+    border-radius: 10px;
+    height: 33px;
+    margin-left: 5px;
+    box-shadow: none;
+    color: #000;
+}
+button {
+    color: #000;
+}
+#buscar {
+    border-radius: 7px 0px 0px 7px;
+}
+.contenedor-input3 {
+    display: flex;
+    margin-top: 20px;
+}
+.contenedor-input {
+    margin-top: 50px;
+}
+.contenedor-input input, .contenedor-input4 input{
+    width: 90%;
+    display: flex;
+}
+.contenedor-input2 {
+    margin-top: 20px;
+    display: flex;
+    margin-bottom: 15px;
+}
+.contenedor-mini2 {
+    width: 100%;
+}
+.contenedor-mini2 input {
+    width: 90%;
+}
+.contenedor-mini {
+    width: 100%;
+}
+.nose {
+    height: 50px;
+    display: flex;
+    width: 80%;
+}
+select {
+    width: 200px;
+}
+.cbtnb {
+    margin: 0;
+    margin-top: -7px;
+}
+.nose2 {
+    width: 90%;
+    display: flex;
+    font-size: small;
+}
+.indec {
+    border-radius: 7px;
+    border: none;
+    padding: 5px;
+    background-color: #EFEE9D;
+    box-shadow: #E5E34C 4px 4px 0px 4px;
+}
+#deco2 {
+    width: 20%;
+    display: grid;
+    grid-template-rows: 1fr auto;
+}
+#deco2 img {
+    width: 100%;
+    grid-row: 2;
+}
+.fecha {
+    width: 50%;
+    margin-right: 3%;
+}
+.fecha input {
+    width: 120px;
+}
+.con-datos {
+    margin-top: -30px;
+}
+@media (max-width: 768px) {
+    body {
+        height: 80vh;
+    }
+    #contenedor {
+        height: 82vh;
+    }
+    #contenedor-form {
+        height: 80%;
+    }
+    .contenedor-input3 {
+        display: flex;
+        flex-direction: column;
+    }
+    .contenedor-mini, .contenedor-mini2 label {
+        margin-top: 10px;
+    }
+}

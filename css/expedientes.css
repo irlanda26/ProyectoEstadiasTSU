@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#contenedor-p {
+    display: grid;
+    width: 100%;
+    height: auto;
+    background-color: #ABBE89;
+}
+header {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+#cuerpo {
+    display: grid;
+}
+#contenedor-principal {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 440px);
+}
+.contenedor-expe {
+    margin: 5%;
+    padding-top: 5%;
+    background-color: #D1EAA3;
+    display: flex;
+    justify-content: end;
+    border-radius: 40px 40px 0px 0px;
+    box-shadow: -4px -4px 2px 0px #0000004d;
+}
+.nombre {
+    margin-left: 15px;
+    width: 70%;
+}
+#contenedor-filtros {
+    display: flex;
+    justify-content: center;
+}
+input {
+    background-color: #ABBE89;
+    border: none;
+    border-radius: 0px 0px 10px 10px;
+    height: 40px;
+}
+.btn-m {
+    display: flex;
+    justify-content: center;
+    margin-right: 5%;
+    height: 40px;
+    width: 100px;
+    border: none;
+    background-color: #ABBE89;
+    cursor: pointer;
+    border-radius: 0px 10px;
+    box-shadow: #000 1px 1px 3px 0px;
+}
+.ver {
+    height: 20px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #fff; 
+}
+.contenedor-btn {
+    margin-right: 20px;
+    width: 30%;
+}
